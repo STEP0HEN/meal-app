@@ -60,7 +60,7 @@ const reserveMeal = () => {
 	  <label for="meal_id">meal number</label>
 	  <input type="number" id="meal_id" name="meal_id">
 	  <input type="submit" value="Submit">
-	</form>
+	</form> 
 	
 	
 	<footer>

@@ -36,7 +36,7 @@ const orderMeal = () => {
   <label for="number_of_guests">Number of guests:</label>
   <input type="number" id="number_of_guests" name="number_of_guests" placeholder="please indicate how many people" required>
   <input type="submit" value="Submit">
-  </form>
+  </form> 
   
   <footer>
   <div>

@@ -18,7 +18,7 @@ function renderReservations(reservations) {
 
 //reservations route handler
 window.handleReservationsRequest = () => {
-  document.body.innerHTML = `
+  document.body.innerHTML = ` 
     <header>
     <h1>Meal Sharing</h1>
     <div class="topnav">

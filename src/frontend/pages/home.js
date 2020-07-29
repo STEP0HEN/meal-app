@@ -89,4 +89,4 @@ window.handleHomeRequest = () => {
 	// make the router handle those links.
 
 	router.updatePageLinks();
-};
+}; 
