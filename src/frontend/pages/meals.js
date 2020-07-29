@@ -29,8 +29,8 @@ const orderMeal = () => {
   <input type="text" id="name" name="name" placeholder="please enter your name" required >
   <label for="email">email:</label>
   <input type="text" id="email" name="email" placeholder="please enter your email" required>
-  <label for="phone_number">Phone no.:</label>
-  <input type="number" id="phone_number" name="phone_number" placeholder="please enter phone number" required>
+  <label for="phone">Phone no.:</label>
+  <input type="number" id="phone" name="phone" placeholder="please enter phone number" required>
   <label for="meal_id">meal number:</label>
   <input type="text" id="meal_id" name="meal_id" placeholder="please enter the meal id " required>
   <label for="number_of_guests">Number of guests:</label>
@@ -109,7 +109,7 @@ function renderMeals(meals) {
 		li.innerHTML = `${meal.id}. ${Object.values(meal.title)
 			.join("")
 			.toUpperCase()} <br> ${meal.description} <br> ${meal.price}kr.`;
-		img.src = `${randomImages}`; //"https://images.pexels.com/photos/1640773/pexels-photo-1640773.jpeg?cs=srgb&dl=assorted-salads-on-bowls-1640773.jpg&fm=jpg"
+		img.src = `${randomImages}`;
 		btn.textContent = "Book Seat";
 		div.setAttribute("class", "mealDiv");
 

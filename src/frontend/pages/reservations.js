@@ -7,7 +7,7 @@ function renderReservations(reservations) {
     const li = document.createElement("li");
 
     li.innerHTML = `Name : ${Object.values(reservation.name).join("")} <br> Email : ${Object.values(reservation.email).join("")}
-      <br> Phone Number : ${reservation.phone_number} <br> Number of people : ${reservation.number_of_guests}`;
+      <br> Phone Number : ${reservation.phone} <br> Number of people : ${reservation.number_of_guests}`;
     ul.appendChild(li);
     div.appendChild(ul);
   });

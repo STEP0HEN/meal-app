@@ -85,7 +85,7 @@ function renderMeal(meal) {
 
 	li.innerHTML = `<h1>${Object.values(meal.title).join(
 		""
-	)}</h1><img src="https://images.pexels.com/photos/4553023/pexels-photo-4553023.jpeg?cs=srgb&dl=potatoes-and-mushrooms-with-chicken-in-white-plate-4553023.jpg&fm=jpg"></img> 
+	)}</h1><img src="https://images.pexels.com/photos/1640773/pexels-photo-1640773.jpeg?cs=srgb&dl=assorted-salads-on-bowls-1640773.jpg&fm=jpg"></img> 
 	<p>${Object.values(meal.description).join("")}<br>${Object.values(
 		meal.price
 	).join("")} kr.</br></p>`;

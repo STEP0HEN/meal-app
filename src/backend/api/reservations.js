@@ -32,11 +32,11 @@ router.get("/:id", async (request, response) => {
 //Add reservation to DB
 router.post("/", async (request, response) => {
 	try {
-		const {name,email,phone_number,meal_id,number_of_guests} = request.body;
+		const {name,email,phone,meal_id,number_of_guests} = request.body;
 		const newReservation = {
 			name, 
 			email,
-			phone_number, 
+			phone, 
 			meal_id,
 			number_of_guests,
 		};
