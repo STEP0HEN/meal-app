@@ -1,204 +1,191 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
 
 * {
-	font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 body {
-	padding: 0;
-	margin: 0;
-	width: 100%;
-	height: 100%;
-	align-content: center;
-	text-align: center;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  align-content: center;
+  text-align: center;
 }
 
 h1 {
-	background-color: black;
-	color: pink;
-	text-align: center;
-	margin-bottom: 0;
-	padding-bottom: 50px;
-	padding-top: 35px;
-	font-weight: bolder;
+  background-color: black;
+  color: pink;
+  text-align: center;
+  margin-bottom: 0;
+  padding-bottom: 50px;
+  padding-top: 35px;
+  font-weight: bolder;
 }
 
-/*.reservation-sec {
-	color: palegoldenrod;
-	display: inline-block;
-	top: 25%;
-	text-align: center;
-	background-color: transparent;
-	height: auto;
-	border: 2px solid pink;
-	position: absolute;
-	overflow: scroll;
-	font-weight: bolder;
-	height: 70%;
-}*/
-
 div {
-	align-items: center;
-	width: 90%;
-	background-color: teal transparent;
+  align-items: center;
+  width: 90%;
+  background-color: teal transparent;
 }
 
 button {
-	color: red;
-	border: solid peru;
-	margin-top: 10px;
+  color: red;
+  border: solid peru;
+  margin-top: 10px;
 }
 
 form {
-	margin-left: 20%;
-	margin-right: 20%;
-	display: block;
-	text-align: left;
-	align-self: center;
-	background-color: powderblue;
-	padding-top: 20px;
-	padding-bottom: 20px;
+  margin-left: 20%;
+  margin-right: 20%;
+  display: block;
+  text-align: left;
+  align-self: center;
+  background-color: powderblue;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 label {
-	padding-left: 20px;
-	font-weight: bold;
+  padding-left: 20px;
+  font-weight: bold;
 }
 
 input[type="text"],
 [type="number"] {
-	width: 95%;
-	padding: 10px 15px;
-	margin: 15px 10px;
-	display: inline-block;
-	border: 1px solid #ccc;
-	border-radius: 4px;
-	box-sizing: border-box;
+  width: 95%;
+  padding: 10px 15px;
+  margin: 15px 10px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
 }
 
 input[type="submit"] {
-	width: 30%;
-	background-color: #1e21af;
-	color: white;
-	padding: 14px 20px;
-	margin: 8px 0;
-	border: none;
-	border-radius: 3px;
-	cursor: pointer;
-	margin-left: 35%;
+  width: 30%;
+  background-color: #1e21af;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-left: 35%;
 }
 
 ul {
-	list-style-type: none;
-	text-decoration: none;
+  list-style-type: none;
+  text-decoration: none;
 }
 
 header {
-	image-resolution: 100%;
-	background-image: url("https://images.pexels.com/photos/2802527/pexels-photo-2802527.jpeg?cs=srgb&dl=assorted-cooking-spices-2802527.jpg&fm=jpg");
-	background-repeat: no-repeat;
-	background-size: 100%;
-	width: 100%;
-	height: 100%;
+  image-resolution: 100%;
+  background-image: url("https://images.pexels.com/photos/2802527/pexels-photo-2802527.jpeg?cs=srgb&dl=assorted-cooking-spices-2802527.jpg&fm=jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 header ul {
-	list-style-type: none;
-	display: flex;
-	justify-content: space-around;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
 }
 
 .topnav {
-	overflow: hidden;
-	background-color: black;
-	width: 100%;
+  overflow: hidden;
+  background-color: black;
+  width: 100%;
 }
 
 .topnav a {
-	color: #f2f2f2;
-	text-align: center;
-	padding-left: 0px;
-	padding: 14px 28px;
-	text-decoration: none;
+  color: #f2f2f2;
+  text-align: center;
+  padding-left: 0px;
+  padding: 14px 28px;
+  text-decoration: none;
 }
 
 .topnav a:hover {
-	background-color: #ddd;
-	color: black;
+  background-color: #ddd;
+  color: black;
 }
 
 .topnav a.active {
-	background-color: #a7e28f;
-	color: white;
+  background-color: #a7e28f;
+  color: white;
 }
 
 .search-container {
-	background-color: cadetblue;
-	width: 100%;
+  background-color: cadetblue;
+  width: 100%;
 }
 
 .searchBar {
-	width: 100%;
-	height: 5%;
-	border: solid papayawhip;
-	background-color: linen;
+  width: 100%;
+  height: 5%;
+  border: solid papayawhip;
+  background-color: linen;
 }
 
 input {
-	background-color: papayawhip;
+  background-color: papayawhip;
 }
 
 img {
-	width: 100%;
-	height: 100%;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
 }
 
 a {
-	text-decoration: none;
-	color: indianred;
+  text-decoration: none;
+  color: indianred;
 }
 
 a:hover {
-	color: white;
+  color: white;
 }
 
 section li {
-	list-style-type: none;
-	padding: 30px 30px 30px 20px;
-	align-content: center;
+  list-style-type: none;
+  padding: 30px 30px 30px 20px;
+  align-content: center;
 }
 
 p {
-	align-content: center;
-	font-size: 30px;
-	font-weight: bolder;
-	margin-top: 20px;
+  align-content: center;
+  font-size: 30px;
+  font-weight: bolder;
+  margin-top: 20px;
 }
 
 footer {
-	width: 100%;
-	height: auto;
-	background-color: cadetblue;
+  width: 100%;
+  height: auto;
+  background-color: cadetblue;
 }
 
 footer div ul {
-	color: white;
-	list-style-type: none;
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
-	width: 100%;
+  color: white;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
 }
 
 .mealDiv {
-	background-color: lightgoldenrodyellow;
-	padding: 2%;
-	margin: 2%;
+  background-color: lightgoldenrodyellow;
+  padding: 2%;
+  margin: 2%;
 }
 
 section {
-	text-align: center;
-	background-color: khaki;
-	height: auto;
-	border: 2px solid pink;
+  text-align: center;
+  background-color: khaki;
+  height: auto;
+  border: 2px solid pink;
 }
